@@ -1,0 +1,44 @@
+<!-- 2357401010 hani haliyah -->
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Logout</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Warna Custom */
+      .bg-pink-tua {
+        background-color: #8e3f6b;
+      }
+      .hover-bg-pink-darker:hover {
+        background-color: #73315a;
+      }
+      .text-pink-tua {
+        color: #8e3f6b;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-100 min-h-screen flex items-center justify-center">
+    <div class="bg-white p-10 rounded-3xl shadow-2xl text-center w-96">
+      <h1 class="text-4xl font-bold text-pink-tua mb-4">Logout</h1>
+      <p class="text-gray-600 mb-6">
+        Apakah Anda yakin ingin logout?
+      </p>
+      <div class="flex justify-center space-x-4">
+        <button
+          onclick="location.href='login.html'"
+          class="bg-pink-tua text-white px-6 py-2 rounded-lg hover-bg-pink-darker transition duration-300 shadow-md"
+        >
+          Ya, Logout
+        </button>
+        <button
+          onclick="location.href='haladmin.html'"
+          class="bg-gray-400 text-white px-6 py-2 rounded-lg hover:bg-gray-500 transition duration-300 shadow-md"
+        >
+          Batal
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,134 @@
+<!-- 2357401010 hani haliyah -->
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Warna Custom */
+      .bg-pink-tua {
+        background-color: #8e3f6b;
+      }
+      .hover-bg-pink-darker:hover {
+        background-color: #73315a;
+      }
+      .text-pink-tua {
+        color: #8e3f6b;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-100 min-h-screen">
+    <div class="flex">
+      <!-- Sidebar Start -->
+      <div class="flex flex-col h-screen p-4 bg-pink-tua text-white shadow-lg w-64 fixed">
+        <div class="text-3xl font-bold text-center mb-6">Admin</div>
+        <ul class="space-y-4 text-lg">
+          <li class="rounded-sm">
+            <a
+              href="haladmin.html"
+              class="block p-3 rounded-lg hover-bg-pink-darker transition duration-300"
+            >
+              Beranda
+            </a>
+          </li>
+          <li class="rounded-sm">
+            <a
+              href="kategori.html"
+              class="block p-3 rounded-lg hover-bg-pink-darker transition duration-300"
+            >
+              Kategori
+            </a>
+          </li>
+          <li class="rounded-sm">
+            <a
+              href="produk.html"
+              class="block p-3 rounded-lg hover-bg-pink-darker transition duration-300"
+            >
+              Produk
+            </a>
+          </li>
+          <li class="rounded-sm">
+            <a
+              href="user.html"
+              class="block p-3 rounded-lg bg-white text-pink-tua font-semibold shadow-md"
+            >
+              User
+            </a>
+          </li>
+          <li class="rounded-sm">
+            <a
+              href="login.html"
+              class="block p-3 rounded-lg hover-bg-pink-darker transition duration-300"
+            >
+              Logout
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- Sidebar End -->
+
+      <!-- Main Content Start -->
+      <div class="ml-64 p-8 w-full">
+        <h1 class="text-4xl font-bold mb-6 text-pink-tua">User Management</h1>
+        <div class="w-full bg-white p-6 rounded-2xl shadow-lg">
+          <table class="w-full text-left border-collapse">
+            <thead>
+              <tr class="bg-pink-tua text-white">
+                <th class="py-3 px-4">No</th>
+                <th class="py-3 px-4">Nama User</th>
+                <th class="py-3 px-4">Email</th>
+                <th class="py-3 px-4">Aksi</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="border-b hover:bg-gray-100 transition duration-300">
+                <td class="py-3 px-4">1</td>
+                <td class="py-3 px-4">Hani</td>
+                <td class="py-3 px-4">hani@example.com</td>
+                <td class="py-3 px-4">
+                  <button
+                    class="bg-blue-500 text-white px-3 py-1 rounded-lg hover:bg-blue-600 transition duration-300"
+                  >
+                    Edit
+                  </button>
+                  <button
+                    class="bg-red-500 text-white px-3 py-1 rounded-lg hover:bg-red-600 transition duration-300 ml-2"
+                  >
+                    Hapus
+                  </button>
+                </td>
+              </tr>
+              <tr class="border-b hover:bg-gray-100 transition duration-300">
+                <td class="py-3 px-4">2</td>
+                <td class="py-3 px-4">Budi</td>
+                <td class="py-3 px-4">budi@example.com</td>
+                <td class="py-3 px-4">
+                  <button
+                    class="bg-blue-500 text-white px-3 py-1 rounded-lg hover:bg-blue-600 transition duration-300"
+                  >
+                    Edit
+                  </button>
+                  <button
+                    class="bg-red-500 text-white px-3 py-1 rounded-lg hover:bg-red-600 transition duration-300 ml-2"
+                  >
+                    Hapus
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="mt-6">
+            <button
+              class="bg-pink-tua text-white px-6 py-3 rounded-lg hover:bg-pink-800 transition duration-300 shadow-md"
+            >
+              Tambah User
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Main Content End -->
+    </div>
+  </body>
+</html>

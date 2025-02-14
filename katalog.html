@@ -1,0 +1,114 @@
+<!-- 2357401010 hani haliyah -->
+ <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog Produk</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 50px 0;
+        }
+        .katalog-box {
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .katalog-box h2 {
+            text-align: center;
+            color: #8e3f6b;
+            margin-bottom: 30px;
+        }
+        .product-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .product-item {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .product-item h3 {
+            color: #8e3f6b;
+            margin-bottom: 10px;
+        }
+        .product-item p {
+            color: #555;
+            margin-bottom: 15px;
+        }
+        .product-item button {
+            background-color: #8e3f6b;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        .product-item button:hover {
+            background-color: #5c2f56;
+        }
+        .button-group {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .button-group a {
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #3f708e;
+            color: white;
+            border-radius: 5px;
+            margin: 10px;
+        }
+        .button-group a:hover {
+            background-color: #2f555c;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="katalog-box">
+        <h2>Daftar Produk</h2>
+        
+        <!-- Daftar Produk -->
+        <div class="product-list">
+            <div class="product-item">
+                <h3>Fashion Baby</h3>
+                <p>Pakaian lucu dan nyaman untuk bayi, dengan desain ceria dan bahan lembut yang aman untuk kulit sensitif. Fashion baby membuat si kecil tampil menggemaskan dan nyaman sepanjang hari!</p>
+                <button>Tambah ke Keranjang</button>
+            </div>
+            <div class="product-item">
+                <h3>Fashion Wanita</h3>
+                <p>Beragam pilihan busana stylish untuk wanita, dari kasual hingga elegan. Fashion wanita memberikan kebebasan untuk mengekspresikan diri dengan tren terbaru dan aksesoris yang memukau.</p>
+                <button>Tambah ke Keranjang</button>
+            </div>
+            <div class="product-item">
+                <h3>Fashion Pria</h3>
+                <p>Fashion pria menggabungkan kenyamanan dengan gaya yang maskulin dan modern. Dari pakaian kasual seperti t-shirt, celana jeans, hingga busana formal seperti jas dan kemeja, fashion pria.</p>
+                <button>Tambah ke Keranjang</button>
+            </div>
+        </div>
+
+        <!-- Tombol Aksi -->
+        <div class="button-group">
+            <a href="loginadmin.html">Login</a>
+            <a href="haladmin.html">Dashboard Admin</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
